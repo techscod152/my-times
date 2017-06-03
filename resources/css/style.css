@@ -4,12 +4,29 @@ header{
   font-weight: bold;
   display: flex;
 }
+img{
+  border: 2px solid black;
+}
 h1{
+  width: 600px;
+  border: 2px solid black;
   color: MediumAquamarine;
 }
-ul{
-  display: inline-flex;
+.topnav ul{
+  display: inline-block;
+  width: 50px;
   list-style-type: none;
   color: black;
   padding: 8px;
+}
+.content{
+  display: flex;
+  flex-wrap: wrap;
+}
+.column.large{
+  width: 630px;
+}
+.column.medium {
+  width: 300px;
+}
 }
