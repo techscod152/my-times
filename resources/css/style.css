@@ -1,47 +1,80 @@
-.header{
+.header header{
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  display: flex;
+  display: inline-flex;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background: #FFF;
+  border-bottom: 1px solid black;
   }
 img{
-  border: 1px solid black;
-}
+  }
 h1{
-  width: 600px;
-  border: 1px solid black;
+  width: 800px;
   color: MediumAquamarine;
 }
+
 .topnav ul li{
   display: inline-block;
   list-style: none;
   text-align: center;
-  color: black;
-  padding-top: 20px;
+  color: #0000;
 }
+
 .container{
   display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 60px;
 }
-.column.large{
+
+#columnlarge{
   width: 630px;
+  display: flex;
+  flex-flow: wrap;
 }
-.column.medium{
+
+#columnmedium{
   width: 300px;
-}
-.column.small{
+  display: flex;
+  flex-flow: wrap;
+  }
+
+#columnsmall{
   width: 240px;
-}
-.phish{
-}
-h2 #phish{
+  display: flex;
+  flex-flow: wrap;
+  }
+
+#columnlarge .phish{
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
-  color: white;
-
+  color: black;
+  background-image: url(resources\images\img-story-main.png);
   }
-h2, h3, .column.large, .column.medium, .column.small{
-}
-h3{
-  font-weight: normal;
+
+.story{
+       border: 2px solid black;
+     }
+
+.heading{
+           font-size: 15px;
+           font-weight: bold;
+         }
+
+.smallheading {
+    border: 1px solid black;
+    display: flex;
+    width: 100%;
+  }
+
+.footer{
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+  background-color: mediumaquamarine;
 }
