@@ -1,9 +1,9 @@
-header{
+.header{
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   display: flex;
-}
+  }
 img{
   border: 1px solid black;
 }
@@ -13,23 +13,35 @@ h1{
   color: MediumAquamarine;
 }
 .topnav ul li{
+  display: inline-block;
   list-style: none;
   text-align: center;
-  display: inline-block;
-  width: 50px;
   color: black;
-  padding: 8px;
+  padding-top: 20px;
 }
 .container{
   display: flex;
-  flex-direction: column;
 }
 .column.large{
   width: 630px;
 }
-.column.medium {
+.column.medium{
   width: 300px;
 }
-.column.small {
+.column.small{
   width: 240px;
+}
+.phish{
+}
+h2 #phish{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+
+  }
+h2, h3, .column.large, .column.medium, .column.small{
+}
+h3{
+  font-weight: normal;
 }
