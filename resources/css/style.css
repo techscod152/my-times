@@ -25,49 +25,80 @@ h1{
 
 .container{
   display: flex;
+  width: 1232px;
   align-items: flex-start;
   justify-content: space-between;
-  margin-top: 60px;
+  margin: 0 auto 70px auto;
+  padding-top: 116px;
 }
 
-#columnlarge{
+.columnlarge{
   width: 630px;
   display: flex;
-  flex-flow: column wrap;
-  margin: 0;
 }
 
-#columnmedium{
+.columnmedium{
   width: 300px;
   display: flex;
   flex-flow: column wrap;
   margin: 0;
   }
 
-#columnsmall{
+.columnsmall{
   width: 240px;
   display: flex;
   flex-flow: column wrap;
   margin: 0;
   }
 
+.story.1{
+  display: block;
+}
+
 .phish{
+  background: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  width: 630px;
+  margin-top: 0;
+  font-size: 40px;
+  text-align: left;
+  }
+
+.caption{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
   font-family: Georgia;
   font-weight: bold;
   font-size: 40px;
   color: white;
-  background: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
   }
+
+.content{
+  margin-top: 16px;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.text{
+  display: block;
+}
+.stories{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
+.story{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
 
 .heading{
   font-size: 15px;
   font-weight: bold;
-}
-
-.story{
-  font-family: Georgia;
-  font-size: 17px;
-  color: black;
 }
 
 .smallheading{
